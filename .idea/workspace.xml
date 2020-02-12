@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ca1a8e-85da-4bbb-9296-477cfdcd102e" name="Default Changelist" comment="" />
+    <list default="true" id="08ca1a8e-85da-4bbb-9296-477cfdcd102e" name="Default Changelist" comment="SSM整合项目">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\workspaces\IdeaProjects\crm\.idea" />
+      </set>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -40,12 +49,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1XeT0XfAH3zTzMdEqJeYvdVsuUx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -254,14 +266,30 @@
       <option name="presentableId" value="Default" />
       <updated>1581405337881</updated>
       <workItem from="1581405339194" duration="3458000" />
-      <workItem from="1581500653548" duration="9182000" />
+      <workItem from="1581500653548" duration="11110000" />
     </task>
+    <task id="LOCAL-00001" summary="SSM整合项目">
+      <created>1581513255594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581513255594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SSM整合项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSM整合项目" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="962" y="135" key="#Notifications" timestamp="1581513456564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="962" y="135" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1581513456564" />
     <state x="912" y="116" key="#Project_Structure" timestamp="1581405441406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,10 +306,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1050" y="197" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1581407505344" />
-    <state x="1100" y="230" key="FileChooserDialogImpl" timestamp="1581513002358">
+    <state x="1017" y="60" key="CommitChangelistDialog2" timestamp="1581514247086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1100" y="230" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581513002358" />
+    <state x="1017" y="60" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581514247086" />
+    <state x="1100" y="230" key="FileChooserDialogImpl" timestamp="1581514584437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1100" y="230" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581514584437" />
+    <state x="1246" y="367" width="273" height="219" key="Github.ShareDialog" timestamp="1581514623507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1246" y="367" width="273" height="219" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581514623507" />
     <state width="745" height="197" key="GridCell.Tab.0.bottom" timestamp="1581408896835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,5 +370,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="821" y="100" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581512942573" />
+    <state x="962" y="210" key="Vcs.Push.Dialog.v2" timestamp="1581514702676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="962" y="210" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581514702676" />
   </component>
 </project>
