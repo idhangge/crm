@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+/* *通配选择器 通配符 */
+*{
+	/* 盒模型 */
+	box-sizing:border-box;
+	/* 字体样式 */
+	font-family:"微软雅黑"; 
+}
+html,body{
+	height:100%;/* 高度 比例值*/
+}
+body{
+	margin:0;
+	background-color:#ddd;/* 背景颜色和浏览器的底色保持一致 */
+	display:flex;/*弹性布局 流式布局 浮动布局 定位*/
+	justify-content:center;/*子元素沿着主轴（横轴/水平轴）方向对齐；中心对齐  */
+	align-items:center;/* 子元素沿着交叉轴（竖轴/垂直轴）方向对齐 中心对齐 */
+}
+.login{
+	background-color:#fff;/*  背景颜色为淡白色*/
+	width:340px;/*宽度为340像素*/
+	padding-top:30px;/* 该元素内部的子元素的内边距距顶部有30像素大小 */
+    border-radius:5px;/* 设置元素四角的弧度为5像素大小 */
+}
+/* 标签选择器 */
+img{
+	display:block;/* 标签：行标签/块标签 */
+	width:180px;
+	margin:0 auto;/* 外边距的垂直方向为0，水平方向为自适应--居中 */
+}
+p{
+   text-align:center;/* 设置p标签内容的水平方向对齐方式为居中 */
+   margin:10px 0;/* 外边距垂直方向为5像素，水平方向为0 */
+   color:#888; /* 设置p标签内容字体的颜色 */
+   padding-bottom:5px;/* 内边距距离底部为5像素大小 */
+}
+.message{
+	color:blue;
+}
+form{
+	 padding:0 30px 20px 30px;/* 内边距的顺序：上 右 下 左 */
+}
+input{
+	height:40px;/* 输入框的高度为40像素大小 */
+	width:100%;/* 宽度为100% */
+	margin:5px 0;/* 外边距的垂直方向为5像素大小，水平方向为0 */
+    border:1px solid #aaa;/* border-边框 边框的宽度为1像素大小 边框的线为实线 颜色为#aaa */
+    padding-left:10px;/* 距离左边的内边距为10像素大小 */
+    font-size:14px;/* 设置输入框的字体大小为14像素大小 */
+    outline:none;/* 去除原有边框的性质 */
+}
+/* 借助伪类 focus 获取焦点 */
+input:focus{
+	border:1px solid #d70f18; /* 设置边框的样式 */
+}
+/* 属性选择器 标签名称【属性名称=属性值】{} */
+input[type=submit]{
+	width:100%;
+	height:40px;
+	line-height:40px;/* 设置行高目的是为了让标签内容垂居中 */
+	font-size:16px;
+	background-color:#d70f18;
+	border:none;/* 去掉边框 */
+	color:#fff;
+	padding:0;
+	margin:5px 0;
+	cursor:pointer;/* 设置鼠标经过标签时样式为手样式 */
+}
+
+
+
+

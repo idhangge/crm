@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+                 "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="crm.mapper.RoleMapper">
+	<!-- id对应的是方法名称 parameterType 对应的是方法参数类型 resultType对应的是方法的返回值类型 -->
+	<select id="list" resultType="crm.pojo.Role">
+		select * from t_role
+	</select>
+
+	<!-- 添加角色功能 -->
+	<insert id="add" parameterType="crm.pojo.Role">
+	insert into t_role values(null,#{r_name},#{r_desc},#{r_utime})
+	</insert>
+	<!-- 根据id查询角色信息 -->
+	<select id="selectRole" parameterType="String" resultType="crm.pojo.Role">
+	select * from t_role where r_id = #{id}
+	</select>
+	<!-- 编辑功能 -->
+	<update id="update" parameterType="crm.pojo.Role">
+	update t_role set r_name = #{r_name},r_desc = #{r_desc},
+		r_utime = #{r_utime} where r_id = #{r_id}
+	</update>
+	
+	<!-- 删除 -->
+   <delete id="delete" parameterType="crm.pojo.Role">
+    delete from t_role where r_id = #{r_id}
+   </delete>
+
+</mapper>
